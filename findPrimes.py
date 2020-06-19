@@ -23,7 +23,13 @@ def findPrimes(N):
       primes.append(i)
   return primes
 
-primes = findPrimes(int(sys.argv[1]))
+if (len(sys.argv) > 1):
+  maxnum = int(sys.argv[1])
+else:
+  print ("Enter a number, I will print out all primes smaller than that number", end = ": ")
+  maxnum = int(input())
+
+primes = findPrimes(maxnum)
 
 for index, prime in enumerate(primes, start=1):
   print("Prime #{}: {}".format(index, prime))
