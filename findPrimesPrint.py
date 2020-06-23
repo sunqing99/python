@@ -1,5 +1,5 @@
 #!/usr/local/bin/python3
-
+#
 from math import sqrt
 import sys
 
