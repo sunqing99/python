@@ -16,6 +16,7 @@ else:
   side = 2 * radius
 
 color('red', 'yellow')
+bgcolor('lightblue')
 speed(8)
 setup(width=1., height=1., startx=None, starty=None)
 up()
