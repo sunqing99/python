@@ -15,6 +15,7 @@ else:
   side *= 2
 
 color('red', 'yellow')
+setup(width=1., height=1., startx=None, starty=None)
 up()
 setpos(-side,yoff)
 home=pos()
